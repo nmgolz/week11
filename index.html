@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="tactow.css">
+</head>
+<body>
+    <div class="container p-5 text-center">
+        <div class="row">
+            <div class="row">
+                <h1 class="bg-danger">TicTacTow</h1>
+            </div>
+            <div class="row">
+                <h2 id="start-turn" class="game-state">Start!</h2>
+                <div id="alertBox"></div>
+            </div>
+        </div>
+        <div class="grid">
+                <div id="top-left" class="cell"></div>
+                <div id="top-mid" class="cell"></div>
+                <div id="top-right" class="cell"></div>
+                <div id="mid-left" class="cell"></div>
+                <div id="mid-mid" class="cell"></div>
+                <div id="mid-right" class="cell"></div>
+                <div id="bot-left" class="cell"></div>
+                <div id="bot-mid" class="cell"></div>
+                <div id="bot-right" class="cell"></div>
+            </div>
+        </div> <br>
+        <div class="center">
+            <button id="restart" class="btn btn-danger">Start Over</button>
+        </div>
+    </div>  
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="tictactow.js"></script>
+</body>
+</html>
