@@ -71,7 +71,7 @@ function isGameWon (){
         mLc === 'O' && mMc === 'O' && mRc === 'O' ||
         bLc === 'O' && bMc === 'O' && bRc === 'O' ||
         bLc === 'O' && mMc === 'O' && tRc === 'O'
-        ){alerts(`TicTacTow has been won by Player O`, 'success');
+        ){alerts(`TicTacToe has been won by Player O`, 'success');
         restart();
         }
         else if (tLc === 'X' && tMc === 'X' && tRc === 'X' ||
@@ -82,7 +82,7 @@ function isGameWon (){
         mLc === 'X' && mMc === 'X' && mRc === 'X' ||
         bLc === 'X' && bMc === 'X' && bRc === 'X' ||
         bLc === 'X' && mMc === 'X' && tRc === 'X'
-        ){alerts(`TicTacTow has been won by Player X`,'success');
+        ){alerts(`TicTacToe has been won by Player X`,'success');
         restart();
         }   
         else if (
